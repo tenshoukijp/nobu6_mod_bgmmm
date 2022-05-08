@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="luacom">
+</Property><Property Name="ソリューション ファイル" Value="C:\usr\koei\Tenshouki95\dllwrap\lua\luacom\mak.vs2005\luacom.sln">
+</Property><Property Name="Date" Value="2015年5月21日">
+</Property><Property Name="Time" Value="2:08">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="luacom.sln" Description="ファイルは正常に C:\usr\koei\Tenshouki95\dllwrap\lua\luacom\mak.vs2005\luacom.sln.old としてバックアップされました。">
+</Event><Event ErrorLevel="0" Project="luacom.dll" Source="luacom.dll.vcproj" Description="ローカルの IIS サーバーへの Web 配置はサポートされなくなりました。Web 配置ビルド ツールはプロジェクト設定から削除されました。">
+</Event><Event ErrorLevel="1" Project="luacom.dll" Source="luacom.dll.vcproj" Description="このアプリケーションは、Windows Vista のユーザー アカウント制御 (UAC) 機能に関連する設定を含むように更新されました。既定で、UAC を有効にして Windows Vista 上でアプリケーションを実行すると、起動したプロセスと同じ特権で実行するようにマークされます。このマークによって、アプリケーションの仮想化による実行も無効になります。プロジェクトのプロパティ ページから UAC 関連の設定を変更できます。">
+</Event><Event ErrorLevel="0" Project="luacom.dll" Source="luacom.dll.vcproj" Description="プロジェクト ファイルは正常に 'C:\usr\koei\Tenshouki95\dllwrap\lua\luacom\mak.vs2005\luacom.dll.vcproj.8.00.old' としてバックアップされました。">
+</Event><Event ErrorLevel="0" Project="luacom.dll" Source="luacom.dll.vcproj" Description="プロジェクトは正常にアップグレードされました。">
+</Event><Event ErrorLevel="3" Project="luacom.dll" Source="luacom.dll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="luacom.sln" Description="ソリューションは正常に変換されました">
+</Event><Event ErrorLevel="3" Project="" Source="luacom.sln" Description="Converted">
+</Event></UpgradeLog>

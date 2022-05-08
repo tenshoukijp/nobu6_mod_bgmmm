@@ -1,0 +1,106 @@
+﻿2022/05/09 3:19:55 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\usr\koei\tenshouki95\dllwrap\BGMmm\BGMmm\BGMmm.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ilua\src /Iffi /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BGMMM_EXPORTS /D _CRT_SECURE_NO_DEPRECATE /D LUA_BUILD_AS_DLL /D LUA_FFI_BUILD_AS_DLL /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /Zp1 /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zp1 /MP  BGMmm.cpp BGMmm_dummy.cpp TSModCommand.cpp TSModPatchProcessMemory.cpp WinVersion.cpp lua\lua_getluastate.cpp lua\lua_interface.cpp
+         BGMmm.cpp
+         BGMmm_dummy.cpp
+         TSModCommand.cpp
+         TSModPatchProcessMemory.cpp
+         WinVersion.cpp
+         lua_getluastate.cpp
+         lua_interface.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ilua\src /Iffi /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BGMMM_EXPORTS /D _CRT_SECURE_NO_DEPRECATE /D LUA_BUILD_AS_DLL /D LUA_FFI_BUILD_AS_DLL /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /Zp1 /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /Zp1 /MP  lua\src\cls.c lua\src\lapi.c lua\src\lauxlib.c lua\src\lbaselib.c lua\src\lbitlib.c lua\src\lcode.c lua\src\ldblib.c lua\src\ldebug.c lua\src\ldo.c lua\src\ldump.c lua\src\lfs.c lua\src\lfunc.c lua\src\lgc.c lua\src\linit.c lua\src\liolib.c lua\src\llex.c lua\src\lmathlib.c lua\src\lmem.c lua\src\loadlib.c lua\src\lobject.c lua\src\lopcodes.c lua\src\loslib.c lua\src\lparser.c lua\src\lstate.c lua\src\lstring.c lua\src\lstrlib.c lua\src\lstructlib.c lua\src\ltable.c lua\src\ltablib.c lua\src\ltm.c lua\src\lundump.c lua\src\lutf8lib.c lua\src\lvm.c lua\src\lzio.c lua\src\outputdebugstring.c
+         cls.c
+         lapi.c
+         lauxlib.c
+         lbaselib.c
+         lbitlib.c
+         lcode.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfs.c
+         lfunc.c
+         lgc.c
+         linit.c
+         liolib.c
+         llex.c
+         lmathlib.c
+         lmem.c
+         loadlib.c
+         lobject.c
+         lopcodes.c
+         loslib.c
+         lparser.c
+         lstate.c
+         lstring.c
+         lstrlib.c
+         lstructlib.c
+         ltable.c
+         ltablib.c
+         ltm.c
+         lundump.c
+         lutf8lib.c
+         lvm.c
+         lzio.c
+         outputdebugstring.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /l"0x0409" /nologo /fo"Release\BGMmm.res" BGMmm.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\usr\koei\tenshouki95\dllwrap\BGMmm\Release\BGMmm.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"BGMmm.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\usr\koei\tenshouki95\dllwrap\BGMmm\Release\BGMmm.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\usr\koei\tenshouki95\dllwrap\BGMmm\Release\BGMmm.lib" /MACHINE:X86 /SAFESEH /DLL Release\BGMmm.res
+         Release\BGMLoopBug.obj
+         Release\BGMmm.obj
+         Release\BGMmm_dummy.obj
+         Release\BGMNonCD.obj
+         Release\lua_getluastate.obj
+         Release\lua_interface.obj
+         Release\cls.obj
+         Release\lapi.obj
+         Release\lauxlib.obj
+         Release\lbaselib.obj
+         Release\lbitlib.obj
+         Release\lcode.obj
+         Release\ldblib.obj
+         Release\ldebug.obj
+         Release\ldo.obj
+         Release\ldump.obj
+         Release\lfs.obj
+         Release\lfunc.obj
+         Release\lgc.obj
+         Release\linit.obj
+         Release\liolib.obj
+         Release\llex.obj
+         Release\lmathlib.obj
+         Release\lmem.obj
+         Release\loadlib.obj
+         Release\lobject.obj
+         Release\lopcodes.obj
+         Release\loslib.obj
+         Release\lparser.obj
+         Release\lstate.obj
+         Release\lstring.obj
+         Release\lstrlib.obj
+         Release\lstructlib.obj
+         Release\ltable.obj
+         Release\ltablib.obj
+         Release\ltm.obj
+         Release\lundump.obj
+         Release\lutf8lib.obj
+         Release\lvm.obj
+         Release\lzio.obj
+         Release\nmh.obj
+         Release\outputdebugstring.obj
+         Release\TSModCommand.obj
+         Release\TSModPatchProcessMemory.obj
+         Release\WinVersion.obj
+            ライブラリ D:\usr\koei\tenshouki95\dllwrap\BGMmm\Release\BGMmm.lib とオブジェクト D:\usr\koei\tenshouki95\dllwrap\BGMmm\Release\BGMmm.exp を作成中
+         コード生成しています。
+         コード生成が終了しました。
+     1>lua_interface.obj : warning LNK4049: ローカルで定義されたシンボル _lua_pcall がインポートされました。
+         BGMmm.vcxproj -> D:\usr\koei\tenshouki95\dllwrap\BGMmm\Release\BGMmm.dll
+     1>プロジェクト "D:\usr\koei\tenshouki95\dllwrap\BGMmm\BGMmm\BGMmm.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.84

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="拡張ソース">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="拡張ヘッダ">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="上の参照">
+      <UniqueIdentifier>{aef5bb42-460d-4584-8ac8-8c0dd5c62981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="拡張バイナリソース">
+      <UniqueIdentifier>{95e6dc6a-8834-4738-b217-98742e70b899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffi">
+      <UniqueIdentifier>{ebc6dbc3-9174-4a67-be10-84cf204627fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luacom">
+      <UniqueIdentifier>{4a1b74d5-b480-4784-afd3-1ca1e52a4093}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BGMmm\lua\src\bin2c.c">
+      <Filter>拡張ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\glue.c">
+      <Filter>拡張ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lua.c">
+      <Filter>拡張ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\luac.c">
+      <Filter>拡張ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\srlua.c">
+      <Filter>拡張ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lapi.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lauxlib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lbaselib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lbitlib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lcode.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ldblib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ldebug.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ldo.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ldump.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lfs.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lfunc.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lgc.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\linit.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\liolib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\llex.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lmathlib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lmem.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\loadlib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lobject.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lopcodes.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\loslib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lparser.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lstate.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lstring.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lstrlib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lstructlib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ltable.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ltablib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\ltm.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lundump.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lutf8lib.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lvm.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\lzio.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\nmh.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\outputdebugstring.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\print.c">
+      <Filter>上の参照</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\lua\src\cls.c">
+      <Filter>拡張バイナリソース</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BGMmm\luacom\src\library\luacom_lib.cpp">
+      <Filter>luacom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BGMmm\lua\src\glue.h">
+      <Filter>拡張ヘッダ</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="jLua.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jLua.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\BGMmm\lua\src\cls.lua">
+      <Filter>拡張バイナリソース</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\BGMmm\luacom\mak.vs2005\Release\luacom.dll.lib">
+      <Filter>luacom</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

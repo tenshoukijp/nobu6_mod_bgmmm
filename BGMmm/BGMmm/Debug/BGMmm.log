@@ -1,0 +1,49 @@
+﻿  BGMmm_dummy.cpp
+BGMLoopBug.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+     ライブラリ D:\usr\koei\tenshouki95\dllwrap\BGMmm\Debug\BGMmm.lib とオブジェクト D:\usr\koei\tenshouki95\dllwrap\BGMmm\Debug\BGMmm.exp を作成中
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_close がフィクション "void __cdecl FreeLuaInterpreter(void)" (?FreeLuaInterpreter@@YAXXZ) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_gettop がフィクション "void __cdecl lua_DumpStack(struct lua_State *)" (?lua_DumpStack@@YAXPAUlua_State@@@Z) にインポートされました。
+lstructlib.obj : warning LNK4049: ローカルで定義されたシンボル _lua_gettop がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_settop がフィクション "int __cdecl lua_getfield_numtype(struct lua_State *,char const *)" (?lua_getfield_numtype@@YAHPAUlua_State@@PBD@Z) にインポートされました。
+lstructlib.obj : warning LNK4049: ローカルで定義されたシンボル _lua_settop がインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4049: ローカルで定義されたシンボル _lua_settop がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_isnumber がフィクション "int __cdecl lua_getfield_numtype(struct lua_State *,char const *)" (?lua_getfield_numtype@@YAHPAUlua_State@@PBD@Z) にインポートされました。
+lstructlib.obj : warning LNK4049: ローカルで定義されたシンボル _lua_isnumber がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_isstring がフィクション "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl lua_getfield_strtype(struct lua_State *,char const *)" (?lua_getfield_strtype@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUlua_State@@PBD@Z) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_type がフィクション "void __cdecl lua_DumpStack(struct lua_State *)" (?lua_DumpStack@@YAXPAUlua_State@@@Z) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_typename がフィクション "void __cdecl lua_DumpStack(struct lua_State *)" (?lua_DumpStack@@YAXPAUlua_State@@@Z) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_tonumber がフィクション "void __cdecl lua_DumpStack(struct lua_State *)" (?lua_DumpStack@@YAXPAUlua_State@@@Z) にインポートされました。
+lstructlib.obj : warning LNK4049: ローカルで定義されたシンボル _lua_tonumber がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_toboolean がフィクション "void __cdecl lua_DumpStack(struct lua_State *)" (?lua_DumpStack@@YAXPAUlua_State@@@Z) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_tolstring がフィクション "int __cdecl lua_DoStringFormat(char const *,...)" (?lua_DoStringFormat@@YAHPBDZZ) にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4049: ローカルで定義されたシンボル _lua_tolstring がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_getfield がフィクション "int __cdecl lua_getfield_numtype(struct lua_State *,char const *)" (?lua_getfield_numtype@@YAHPAUlua_State@@PBD@Z) にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4049: ローカルで定義されたシンボル _lua_getfield がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_createtable がフィクション "int __cdecl PushEmptyTable(struct lua_State *,char *)" (?PushEmptyTable@@YAHPAUlua_State@@PAD@Z) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_setfield がフィクション "int __cdecl PushEmptyTable(struct lua_State *,char *)" (?PushEmptyTable@@YAHPAUlua_State@@PAD@Z) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pcall がフィクション "int __cdecl lua_DoStringFormat(char const *,...)" (?lua_DoStringFormat@@YAHPBDZZ) にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4049: ローカルで定義されたシンボル _lua_pcall がインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_openlibs がフィクション "void __cdecl LoadLuaInterpreter(void)" (?LoadLuaInterpreter@@YAXXZ) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_loadstring がフィクション "int __cdecl lua_DoStringFormat(char const *,...)" (?lua_DoStringFormat@@YAHPBDZZ) にインポートされました。
+lua_interface.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_newstate がフィクション "void __cdecl LoadLuaInterpreter(void)" (?LoadLuaInterpreter@@YAXXZ) にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pushnil がフィクション _lstruct_b_pack にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4049: ローカルで定義されたシンボル _lua_pushnil がインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pushnumber がフィクション _lstruct_b_unpack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pushinteger がフィクション _lstruct_b_size にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pushlstring がフィクション _lstruct_b_unpack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pushfstring がフィクション _controloptions にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_argerror がフィクション _controloptions にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_checklstring がフィクション _lstruct_b_pack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_checknumber がフィクション _lstruct_b_pack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_optinteger がフィクション _lstruct_b_unpack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_checkstack がフィクション _lstruct_b_unpack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_error がフィクション _controloptions にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_buffinit がフィクション _lstruct_b_pack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_prepbuffer がフィクション _lstruct_b_pack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_addlstring がフィクション _lstruct_b_pack にインポートされました。
+lstructlib.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_pushresult がフィクション _lstruct_b_pack にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4217: ローカルで定義されたシンボル _lua_pushvalue がフィクション "int __cdecl ImportCmdTable(struct lua_State *)" (?ImportCmdTable@@YAHPAUlua_State@@@Z) にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4217: ローカルで定義されたシンボル _lua_tointeger がフィクション "int __cdecl ImportCmdTable(struct lua_State *)" (?ImportCmdTable@@YAHPAUlua_State@@@Z) にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4217: ローカルで定義されたシンボル _lua_next がフィクション "int __cdecl ImportCmdTable(struct lua_State *)" (?ImportCmdTable@@YAHPAUlua_State@@@Z) にインポートされました。
+TSModPatchProcessMemory.obj : warning LNK4217: ローカルで定義されたシンボル _luaL_loadfile がフィクション "void __cdecl ImportTSModIni(char *)" (?ImportTSModIni@@YAXPAD@Z) にインポートされました。
+  BGMmm.vcxproj -> D:\usr\koei\tenshouki95\dllwrap\BGMmm\Debug\BGMmm.dll

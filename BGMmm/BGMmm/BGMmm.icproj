@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="14.0"
+	Name="BGMmm"
+	ProjectGUID="{2E888A28-751D-46FC-A4FC-3830C0163501}"
+	VCNestedProjectGUID="{8D26CF46-A76B-4ACD-87E8-999C9214BBC2}"
+	VCNestedProjectFileName="BGMmm.vcproj"
+	>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			>
+			<Tool
+				Name="CppCmplrTool"
+				Optimization="1000"
+				OptimizeForWindowsApplication="true"
+				EnableMatrixMultiplyLibraryCall="0"
+				Parallelization="false"
+				UseIntelOptimizedHeaders="false"
+			/>
+		</Configuration>
+	</Configurations>
+	<Files/>
+</VisualStudioProject>

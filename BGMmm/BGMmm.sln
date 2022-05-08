@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BGMmm", "BGMmm\BGMmm.vcxproj", "{8D26CF46-A76B-4ACD-87E8-999C9214BBC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jLua", "jlua\jlua.vcxproj", "{8DC655EA-FAEF-48B7-BE3A-095C20231CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D26CF46-A76B-4ACD-87E8-999C9214BBC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D26CF46-A76B-4ACD-87E8-999C9214BBC2}.Debug|Win32.Build.0 = Debug|Win32
+		{8D26CF46-A76B-4ACD-87E8-999C9214BBC2}.Release|Win32.ActiveCfg = Release|Win32
+		{8D26CF46-A76B-4ACD-87E8-999C9214BBC2}.Release|Win32.Build.0 = Release|Win32
+		{8DC655EA-FAEF-48B7-BE3A-095C20231CBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DC655EA-FAEF-48B7-BE3A-095C20231CBB}.Debug|Win32.Build.0 = Debug|Win32
+		{8DC655EA-FAEF-48B7-BE3A-095C20231CBB}.Release|Win32.ActiveCfg = Release|Win32
+		{8DC655EA-FAEF-48B7-BE3A-095C20231CBB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

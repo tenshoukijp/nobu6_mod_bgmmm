@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="LUAインタプリタ">
+      <UniqueIdentifier>{2a73e29d-1a26-47a3-863c-1b30ae9c4ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAインタプリタ\インタプリタIF">
+      <UniqueIdentifier>{3cb16312-d260-4843-abe4-4658eb66baf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAインタプリタ\インタプリタ本体">
+      <UniqueIdentifier>{d34d4d19-42ec-486d-8066-f13e99bf0bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAインタプリタ\日本語文字コード判別">
+      <UniqueIdentifier>{34348f96-abf3-4500-84d6-2ffc94996f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAインタプリタ\拡張バイナリソース">
+      <UniqueIdentifier>{877e11ba-740e-49ca-840c-a88a89edc897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAインタプリタ\luacom">
+      <UniqueIdentifier>{6a716150-6bba-47dd-9a5e-29dbcfbf2b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUAインタプリタ\ヘッダー">
+      <UniqueIdentifier>{529b7ef1-43d5-4035-81ce-9c06ab9d5990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BGMLoopBug.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMmm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMmm_dummy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMNonCD.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TSModCommand.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TSModPatchProcessMemory.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinVersion.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua_getluastate.cpp">
+      <Filter>LUAインタプリタ\インタプリタIF</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua_interface.cpp">
+      <Filter>LUAインタプリタ\インタプリタIF</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lapi.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lauxlib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lbaselib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lbitlib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lcode.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ldblib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ldebug.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ldo.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ldump.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lfs.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lfunc.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lgc.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\linit.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\liolib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\llex.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lmathlib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lmem.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\loadlib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lobject.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lopcodes.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\loslib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lparser.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lstate.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lstring.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lstrlib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lstructlib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ltable.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ltablib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\ltm.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lundump.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lutf8lib.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lvm.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\lzio.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\outputdebugstring.c">
+      <Filter>LUAインタプリタ\インタプリタ本体</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\nmh.c">
+      <Filter>LUAインタプリタ\日本語文字コード判別</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\src\cls.c">
+      <Filter>LUAインタプリタ\拡張バイナリソース</Filter>
+    </ClCompile>
+    <ClCompile Include="luacom\src\library\luacom_lib.cpp">
+      <Filter>LUAインタプリタ\luacom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BGMmm.def">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BGMmm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TSModCommand.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TSModPatchProcessMemory.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WinVersion.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua_interface.h">
+      <Filter>LUAインタプリタ\インタプリタIF</Filter>
+    </ClInclude>
+    <ClInclude Include="luacom\include\luacom.h">
+      <Filter>LUAインタプリタ\インタプリタIF</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\src\nmh.h">
+      <Filter>LUAインタプリタ\日本語文字コード判別</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\src\lualib.h">
+      <Filter>LUAインタプリタ\ヘッダー</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BGMmm.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="日本語文字コード判別.txt">
+      <Filter>LUAインタプリタ\日本語文字コード判別</Filter>
+    </CustomBuild>
+    <CustomBuild Include="luacom\mak.vs2005\Release\luacom.dll.lib">
+      <Filter>LUAインタプリタ\luacom</Filter>
+    </CustomBuild>
+    <CustomBuild Include="luacom\src\dll\luacom_dll.h">
+      <Filter>LUAインタプリタ\luacom</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
